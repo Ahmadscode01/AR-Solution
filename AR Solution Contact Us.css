@@ -1,0 +1,122 @@
+/* General form section styling */
+body{
+
+background-image: url(telephone\ in\ dark.jpg);
+background-position: center;
+background-size: cover;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+
+
+#contact {
+    padding: 60px 20px;
+    background: transparent; 
+    color: white;
+    font-weight: light;
+    
+    text-align: center;
+}
+
+/* Style for form headers */
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Paragraph style */
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Style for the form itself */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+}
+
+/* Style for form inputs */
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent; /* Dark background for inputs */
+    color: white; /* Text color */
+    font-size: 1rem;
+}
+
+/* Style for the text area */
+form textarea {
+    height: 150px; /* Set height for text area */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style for the submit button */
+form button {
+    background-color:  #0099ff; /* Orange button background */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the submit button */
+form button:hover {
+    background-color: #006bb3; /* Darker shade on hover */
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    background-color: transparent; /* Transparent background for nav */
+  
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Spacing between nav items */
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 1.2rem; /* Font size */
+    border: 1px solid transparent; /* Initial border to create transition effect */
+    padding: 5px 15px; /* Padding around text */
+    transition: border-color 0.3s ease, color 0.3s ease; /* Smooth transition for color and border */
+}
+
+nav ul li a:hover {
+    color: #ff6b6b; /* Light red color on hover */
+    border-color: #ff6b6b; /* Border color change on hover */
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        display: block; /* Stack navigation links */
+        margin: 10px 0; /* Add spacing */
+    }
+
+    nav ul li a {
+        font-size: 1rem; /* Reduce font size */
+    }
+ }
+

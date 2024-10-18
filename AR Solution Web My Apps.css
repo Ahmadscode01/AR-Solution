@@ -1,0 +1,80 @@
+/* General body styling */
+body {
+    background-image: url(app\ icons\ on\ phone\ in\ dark.jpg); 
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    background-color: transparent;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    transition: border-color 0.3s ease, color 0.3s ease; /* Smooth transition for border and color */
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+    border-color: #ff6b6b; /* Add border effect on hover */
+}
+
+/* Section for the COMING SOON text */
+.coming-soon {
+    background: linear-gradient(45deg, #333, #000); /* Gradient background */
+    padding: 40px 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.coming-soon h1 {
+    font-size: 4rem;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Same grey as the COMING SOON section */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+

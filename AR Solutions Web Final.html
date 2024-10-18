@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Solutions - Graphics & Developers</title>
+    <link rel="stylesheet" href="AR Solution Web Final.css"> <!-- Link to external CSS file -->
+    <link rel="icon" type="image/png" href="AR LOGO .png"> <!-- Changed to correct icon type -->
+</head>   
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h3 class="name-logo" style="text-align: left;"> AR SOLUTIONS</h3>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="AR Solutions Web final.html">HOME</a></li>
+                <li><a href="AR Solution Web about.html">ABOUT</a></li>
+                <li><a href="AR Solution Services.html">SERVICES</a></li>
+                <li><a href="AR Solution Web My Apps.html"> MY APPS </a></li>
+                <li><a href="AR Solution Contact Us.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to AR Solutions</h1>
+        <p>Your Partner in Graphic Designing, Web Development, and Mobile Application Development</p>
+        <a href="Registration form.html" class="Register-button"> Get Registered</a>
+    </section>
+
+    
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+    
+        <div class="faq-QA">
+            <div class="faq-question">What services do you offer?</div>
+            <div class="faq-answer">At AR Solutions, we specialize in graphic design, web development, and mobile application development tailored to meet your business needs.</div>
+        </div>
+    
+        <div class="faq-QA">
+            <div class="faq-question">How can I get a quote for a project?</div>
+            <div class="faq-answer">To receive a quote, please visit our 'Contact Us' page and fill out the inquiry form. You can also reach us via email or phone for immediate assistance.</div>
+        </div>
+    
+        <div class="faq-QA">
+            <div class="faq-question">What is your design process?</div>
+            <div class="faq-answer">Our design process involves understanding your requirements, brainstorming ideas, creating initial designs, and refining them based on your feedback until we achieve your vision.</div>
+        </div>
+    
+        <div class="faq-QA">
+            <div class="faq-question">How long does it take to complete a project?</div>
+            <div class="faq-answer">Project timelines vary depending on the complexity of the work. After discussing your project with us, we will provide an estimated timeline.</div>
+        </div>
+    
+        <div class="faq-QA">
+            <div class="faq-question">Do you provide support after the project is completed?</div>
+            <div class="faq-answer">Yes, we offer ongoing support and maintenance services to ensure your website and applications run smoothly after launch.</div>
+        </div>
+    
+        <div class="faq-QA">
+            <div class="faq-question">What are your payment terms?</div>
+            <div class="faq-answer">We require a deposit upfront to begin work on your project, with the remaining balance due upon completion. Specific payment terms can be discussed during our initial consultation.</div>
+        </div>
+    
+        <!-- Contact Us Text-->
+        <div class="contact-us-text">
+            <p>Any questions? Contact us and feel free to ask!</p>
+        </div>
+    </div>
+    
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 AR Solutions - Graphics & Developers.</p>
+    </footer>
+
+    <script>
+        const questions = document.querySelectorAll('.faq-question');
+        questions.forEach((question) => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                faqItem.classList.toggle('active');
+                const answer = faqItem.querySelector('.faq-answer');
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+
+</body>
+</html>

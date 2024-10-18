@@ -1,0 +1,199 @@
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    background-color: transparent; /* Transparent background for nav */
+  
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Spacing between nav items */
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 1.2rem; /* Font size */
+    border: 1px solid transparent; /* Initial border to create transition effect */
+    padding: 5px 15px; /* Padding around text */
+    transition: border-color 0.3s ease, color 0.3s ease; /* Smooth transition for color and border */
+}
+
+nav ul li a:hover {
+    color: #ff6b6b; /* Light red color on hover */
+    border-color: #ff6b6b; /* Border color change on hover */
+}
+
+/* Add AR Solutions Text to Nav */
+#ar-solutions-nav-text {
+    margin: 0 30px; /* Spacing around AR Solutions text */
+    font-size: 1.5rem; /* Increase font size */
+    color: #fff; /* White text */
+    font-weight: bold;
+    
+    text-transform: uppercase; /* Transform text to uppercase */
+    animation: fadeIn 1.5s ease-in-out forwards; /* Apply fade-in animation */
+    opacity: 0; /* Start as invisible */
+    padding-right:100rem 100px :
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: whitesmoke;
+    background-color:  #000 ; /* Light background for better contrast */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('earth\ from\ space.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color : white;
+    stroke: #333;
+    stroke-width: 10px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Adding keyframes for fade-in transition */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Move the text upwards */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Final position */
+    }
+}
+
+/* About AR Solutions Text */
+#about-text {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply the fade-in animation */
+}
+
+
+/* Navigation */
+nav {
+    background: transparent; /* Dark background for the nav */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: ;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    border: 2px solid  #ff6b6b;; /* Underline effect on hover */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: linear-gradient(45deg, #333, #000); /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1); /* Soft shadow effect */
+}
+
+section h2 {
+    color:  #0099ff; /* Primary color for headings */
+    margin-bottom: 15px color #333 ;
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background color and transform */
+    transform: translateY(-5px); /* Slightly move up on hover */
+}
+
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px; /* Indentation for list items */
+}
+
+/* Founder Image */
+.founder-image {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.founder-image img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+    border: 5px solid  #0099ff; /* Border to match primary color */
+    border-radius: 10px;
+}
+
+
+/* Contact Section */
+#contact a {
+    color: #007BFF; /* Primary link color */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Accounts Section */
+#Account a {
+    color:  #007BFF; /* Primary link color */
+    text-decoration: none;
+}
+
+#Account a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333; /* Dark background for footer */
+    color: white;
+}

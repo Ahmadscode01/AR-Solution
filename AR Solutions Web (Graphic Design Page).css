@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-image: url(Dark\ Adobe\ illustrator\ Working.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h3.name-logo {
+    font-size: 25px;
+    font-weight: bolder;
+    background: transparent;
+    background: linear-gradient(45deg, #ff6200, #ff0073);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 20px;
+    margin: 0;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+}
+
+/* Navigation*/
+nav {
+    text-align: center;
+    background-color: transparent; 
+  
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 1.2rem; 
+    border: 1px solid transparent;
+    padding: 5px 15px; 
+    transition: border-color 0.3s ease, color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ff6b6b; 
+    border-color: #ff6b6b; 
+}
+
+
+.content {
+    padding: 20px;
+}
+
+h1.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Apply fade-in animation */
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
